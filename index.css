@@ -10,7 +10,7 @@ body{
 }
 .welc-page{
     width: 100vw;
-    height: 146vh;
+    height: 1280px;
     background-color: #222533;
     display: flex;
     flex-direction: column;
@@ -106,4 +106,46 @@ input[type='radio']:checked:after {
     display: inline-block;
     visibility: visible;
     border: 4px solid white;
+}
+
+header{
+    box-shadow: 0px 0px 9px rgb(65, 62, 62);
+}
+/* HEADER */
+.header-box{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: auto;
+    height: 90px;
+    
+}
+
+.header-box .Logo{
+    display: flex;
+}
+.header-box .Logo h1{
+    font-size: 35.69px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.header-box .Logo h1 span{
+    font-weight: 700;
+}
+.header-box ul {
+    margin-right: 52px;
+    display: flex;
+    width: 788px;
+    justify-content: space-between;
+
+}
+.header-box ul li{
+    list-style: none;
+}
+.header-box ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #A1B1BC;
 }
