@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+body{
+    overflow-x: hidden;
+}
+.welc-page{
+    width: 100vw;
+    height: 146vh;
+    background-color: #222533;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+/* .welc-main-content{
+    margin-top: 462.8px;
+    background-color: violet;
+    max-width: 1148px;
+    height: 264.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+} */
+.welc-main-content{
+    margin-top: 462.8px;
+    max-width: 1148px;
+    text-align: center;
+    /* margin-left: -60px; */
+    
+}
+.welc-main-content h3 span{
+    color: #1ABC9C;
+}
+.welc-main-content h3:first-child{
+    font-size: 30px;
+    letter-spacing: 9px;
+    word-spacing: 0px;
+    margin-left: 15px;
+}
+.welc-main-content h1{
+    font-size: 60px;
+    line-height: 1;
+    /* margin-top: -26px; */
+    margin-top: 15px;
+    /* margin-left: 10px; */
+    margin-bottom: 17px;
+    font-weight: 900;
+}
+.welc-main-content h3:last-of-type{
+    font-weight: 300;
+    font-size: 30px;
+    /* padding-left: 10px; */
+    /* margin-top: -23px; */
+    margin-left: 3px;
+}
+.welc-butt-wrap{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+}
+.welc-main-content button{
+    width: 200px;
+    height: 60px;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    
+}
+.welc-main-content button:first-of-type{
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+}
+
+.welc-main-content button:last-of-type{
+    background-color: #1ABC9C;
+}
+.welc-page form{
+    width: 86px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.welc-page form input{
+    width: 14px;
+    height: 14px;
+}
+
+input[type='radio']:checked:after {
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+
+    position: relative;
+    background-color: #1ABC9C;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 4px solid white;
+}
