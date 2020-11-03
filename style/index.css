@@ -5,9 +5,9 @@
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
-body{
-    overflow-x: hidden;
-    width: 100vw;
+html, body{
+    /* overflow-x: hidden; */
+    width: 100%;
 }
 p{
     font-size: 14px;
@@ -17,7 +17,7 @@ p{
 
 }
 .welc-page{
-    width: 100vw;
+    /* width: 100vw; */
     height: 1280px;
     background-color: #222533;
     display: flex;
@@ -25,17 +25,6 @@ p{
     align-items: center;
     color: white;
 }
-/* .welc-main-content{
-    margin-top: 462.8px;
-    background-color: violet;
-    max-width: 1148px;
-    height: 264.2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    
-} */
 .welc-main-content{
     margin-top: 462.8px;
     max-width: 1148px;
@@ -94,7 +83,7 @@ p{
     background-color: #1ABC9C;
 }
 .welc-page form{
-    width: 86px;
+    max-width: 86px;
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
@@ -291,7 +280,7 @@ h2{
     letter-spacing: 0.3px;
 }
 .capabilities-whole>p {
-    width: 630.7px;
+    max-width: 630.7px;
     letter-spacing: -0.05px;
     margin: auto;
     /* transform: translateX(8px); */
@@ -302,7 +291,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    max-width: 200px;
     height: 200px;
     border: 6px solid #1ABC9C ;
     border-radius: 50%;
@@ -352,7 +341,7 @@ h2{
 .capabilities-wrapper p{
     color: white;
     font-weight: 400;
-    width: 260px;
+    max-width: 260px;
 }
 
 
@@ -1064,4 +1053,153 @@ width: 1075.5px;
 }
 .news-box:hover .news-img{
     background-color: #2C3E50;
+}
+
+/* keep in touch */
+.section-intouch{
+    width: 100%;
+    height: 775px;
+    padding-top: 90px;
+    background-color: #222533;
+    
+}
+.section-intouch .intouch-main{
+    margin: auto;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(3px);
+    color: #FFFFFF;
+}
+.intouch-main .keep-intouch p {
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-top: 35px;
+    word-spacing: 1.2px;
+}
+.keep-intouch{
+    width: 49.72%;
+    padding-left: 4px;
+    padding-right: 6px;
+    overflow: visible;
+}
+.meet-team{
+    width: 48.72%;
+    position: relative;
+}
+.intouch-icons{
+    width: 87.2%;
+    font-size: 26px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.mywifi{
+    transform: rotate(45deg);
+}
+.keep-intouch i{
+    cursor: pointer;
+}
+.keep-intouch form input{
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #636372;
+}
+.keep-intouch form input::placeholder{
+    color: #FFFFFF;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.keep-intouch form button{
+    width: 100%;
+    height: 56px;
+    background-color: #1ABC9C;
+    font-size: 16px;
+    font-weight: 900;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+.keep-intouch form{
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.keep-intouch form textarea{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid  #636372;
+    border-radius: 3px;
+}
+.team-container{
+    padding-left: 4px;
+    padding-right: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 452px;
+}
+.meet-team>h2{
+    margin-left: 5px;
+}
+
+.team-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.team-img:hover{
+    background-color: transparent;
+}
+.team-img::after{
+    position: absolute;
+    content: "+";
+    font-size: 72px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.team-img{
+    position: relative;
+    width: 125px;
+    height: 125px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+.team-desc{
+    max-width: 417px;
+}
+.team-desc h4{
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.team-desc p{
+    color: white;
+    font-weight: 300;
+}
+.team-desc p:last-of-type{
+    margin-top: 6px;
+}
+.sami-kubili{
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    display: flex;
+}
+.sami-kubili div{
+    width: 10px;
+    height: 10px;
+    background-color: #FFFFFF;
+    margin-right: 6px;
+}
+.sami-kubili div:hover{
+background-color: #1BEAC1;
 }
