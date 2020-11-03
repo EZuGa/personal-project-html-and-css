@@ -1006,7 +1006,7 @@ width: 1075.5px;
 .news-whole{
     padding-top: 105px;
     background-color: red;
-
+    padding-bottom: 100px;
 }
 .news-header{
     max-width: 640px;
@@ -1025,7 +1025,38 @@ width: 1075.5px;
     width: 170px;
     height: 200px;
     background-color: #CCCCCC;
+    margin: 6px 20px 6px 0px;
+  
+}
+
+.flex{
+    display: flex;
 }
 .news-box{
+    width: 385px;
+}
+.news-box h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.news-box i{
+    margin-right: 10px;
+}
+.news-main{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1185px;
+    transform: translateX(6px);
+    margin: auto;
+    margin-top: 40px;
+    height: 460px;
+    align-content: space-between;
+}
+ .news-icon-text:first-of-type{
+    margin-top: 12px;
+}
+.news-icon-text:not(:first-of-type){
+    margin-top: 6px;
 }
