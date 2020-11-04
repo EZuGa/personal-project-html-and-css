@@ -229,7 +229,7 @@ header {
   margin-bottom: 16px;
 }
 .aboutCompany p {
-  width: 570px;
+  max-width: 570px;
   font-weight: 400;
   font-size: 14px;
   word-spacing: -0.5px;
@@ -251,6 +251,7 @@ header {
 #figura {
   transform: translateY(10px);
   align-self: flex-end;
+  width: 45%;
 }
 
 /* capabilities */
@@ -398,7 +399,6 @@ h2 {
   /* transform: translateX(8px); */
   padding-top: 90px;
   padding-bottom: 100px;
-  background-color: royalblue;
 }
 .recentWorks h2 {
   /* transform: translateX(8px); */
@@ -406,7 +406,6 @@ h2 {
 }
 .recentWorks p {
   max-width: 630.7px;
-  background-color: rebeccapurple;
   margin: auto;
   word-spacing: -0.3px;
   /* transform: translateX(8px); */
@@ -452,7 +451,6 @@ h2 {
 
   max-width: 1170px;
   height: 400px;
-  background-color: slateblue;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -542,7 +540,7 @@ h2 {
   /* transform: translateX(8px); */
 }
 .review-whole > p:first-of-type {
-  width: 650px;
+  max-width: 650px;
   margin: auto;
   letter-spacing: -0.05px;
   margin-top: 11px;
@@ -798,46 +796,7 @@ h2 {
   color: #7bc200;
 }
 
-/* .pricing-last-hover{
-    width: 10px;
-    height: 140px;
-    background-color: #1ABC9C;
-    margin-left: 5px;
-    display: inline-block;
-} */
-/* .pricing-last p{
-     
-     background-color: brown;
-     
- }
- .pricing-last-hover{
-     width: 10px;
-     height: 140px;
-     background-color: #1ABC9C;
-     margin-left: 5px;
-     display: inline-block;
- }
- .pricing-last button{
-     width: 176px;
-     height: 50px;
-     background-color: #1ABC9C;
-     font-size: 18px;
-     font-weight: 700;
-     border: none;
-     color: #FFFFFF;
-     border-radius: 4px;
- }
- .pricing-last-text h3{
-     text-align: start;
-     font-size: 24px;
-     font-weight: 300;
-     letter-spacing: 0.3px;
- }
- .pricing-last-text{
-     margin-left: 32px;
-     background-color: green;
-     max-width: 823.5px;
- } */
+
 .pricing-last {
   position: relative;
   max-width: 1170px;
@@ -1194,7 +1153,7 @@ h2 {
     align-items: center;
     max-width: 1094px;
     margin: auto;
-    transform: translateX(9px);
+    /* transform: translateX(9px); */
 }
 .sponsors-main i{
     /* background: linear-gradient(); */
@@ -1242,7 +1201,7 @@ h2 {
     margin-bottom: 25px;
 }
 .sumup-first input{
-max-width: 320px;
+width: 320px;
 height: 50px;
 background-color: #222533;
 border: none;
